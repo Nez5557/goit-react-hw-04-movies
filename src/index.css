@@ -1,0 +1,59 @@
+/* ul {
+  list-style: none;
+} */
+
+a {
+  margin: 5px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.navigation {
+  background-color: rgb(120, 200, 247);
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.navigation:hover {
+  background-color: rgb(117, 46, 99);
+  color: #fff;
+}
+
+.activeNavigation {
+  background-color: rgb(237, 100, 191);
+  color: #fff;
+}
+
+img {
+  display: block;
+  width: 200px;
+  height: auto;
+}
+
+button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: rgb(160, 163, 165);
+  border-radius: 5px;
+}
+
+.addInfo {
+  display: block;
+  width: 70px;
+  color: blueviolet;
+  background-color: rgb(124, 222, 240);
+  padding: 5px;
+  margin: 5px;
+}
+
+.addInfo:hover {
+  cursor: pointer;
+  background-color: rgb(117, 46, 99);
+  color: #fff;
+}
+
+.activeAddInfo {
+  background-color: rgb(117, 46, 99);
+  color: #fff;
+}
